@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
 class HypothesisController < ApplicationController
-  def index; end
+  def index
+  end
 
   def create
     @iterations = proccessor(params[:number])
