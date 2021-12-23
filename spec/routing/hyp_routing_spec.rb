@@ -8,4 +8,5 @@ RSpec.describe HypothesisController, type: :routing do
       expect(get('/')).to route_to('hypothesis#index')
     end
   end
+  
 end
